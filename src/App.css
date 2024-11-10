@@ -1,0 +1,92 @@
+main {
+  padding: 16px 32px;
+  }
+  
+  section ul {
+  padding: 0;
+  display: grid;
+  grid-gap: 16px;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  li {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333333;
+  border: 1px solid rgb(160, 160, 160);
+  }
+  
+  form {
+  display: flex;
+  align-items: center;
+  }
+  
+  form * {
+  margin-right: 16px;
+  }
+  
+  input, button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(160, 160, 160);
+  }
+
+  /* Initial styling */
+
+main {
+  padding: 16px 32px;
+  }
+  
+  section ul {
+  padding: 0;
+  display: grid;
+  grid-gap: 16px;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  li {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #333333;
+  border: 1px solid rgb(160, 160, 160);
+  }
+  
+  form {
+  display: flex;
+  align-items: center;
+  }
+  
+  form * {
+  margin-right: 16px;
+  }
+  
+  input, button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(160, 160, 160);
+  }
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
